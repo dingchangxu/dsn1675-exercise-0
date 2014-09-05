@@ -1,0 +1,20 @@
+dl {
+    border: 1px solid red;
+    /*
+    overflow hidden cnabe used as a clearfix
+    it remind the <dl> to wrap 
+    */
+    overflow: hidden;
+}
+
+dt {
+    float: left;
+    clear: left; /*force the <dt> underneath anything floated left */
+    width: 8rem;
+}
+ 
+dd {
+    float:left;
+    margin: 0;
+    padding: 0;
+}
